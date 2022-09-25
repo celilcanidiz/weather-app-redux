@@ -20,7 +20,7 @@ function Card({ daily }) {
       />
       <div className="text-lg">
         <span>{Math.round(daily.temp.max)}°</span>
-        <span> - </span>
+        <span>-</span>
         <span className="text-gray-400">{Math.round(daily.temp.min)}° C</span>
       </div>
     </div>
